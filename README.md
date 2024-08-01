@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the official implementation of the paper, titled "Exact and Efficient Similar Subtrajectory Search: Integrating Constraints and Simplification", submitted to VLDB2025.
+This is the official implementation of the paper, titled "Exact and Efficient Similar Subtrajectory Search: Integrating Constraints and Simplification", submitted to ICDE2025.
 
 ## Structure
 This project consists of two components, i.e., ExpcSimSub and ExpsSimSub, which corresponds to the two problems solved in our study, in which cSimSub refers to the Constrained SimSub problem and sSimSub refers to SimSub for Trajectory Simplification. The former will return the most similar subtrajectory from the data trajectory, where the length of the returned subtrajectory will be no less than a user-specified integer C. The latter is to perform trajectory simplification, in which the simplified trajectory achieves the best self-similarity to itself.
